@@ -559,6 +559,15 @@ vendor/lib64/libsmemlog.so
 -app/embms/embms.apk
 -app/QtiTelephonyService/QtiTelephonyService.apk
 -app/radioconfig/radioconfig.apk
+etc/permissions/qcrilhook.xml
+etc/permissions/telephonyservice.xml
+-framework/QtiTelephonyServicelibrary.jar
+-framework/qcrilhook.jar
+-framework/qti-telephony-common.jar
+-priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
+etc/permissions/qti_libpermissions.xml
+vendor/bin/hw/rild
+vendor/bin/ipacm-diag
 vendor/bin/netmgrd
 vendor/bin/port-bridge
 vendor/bin/rmt_storage
