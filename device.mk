@@ -146,6 +146,8 @@ PRODUCT_PACKAGES += \
     hwcomposer.msm8953 \
     copybit.msm8953 \
     memtrack.msm8953 \
+    libdisplayconfig \
+    liboverlay \
     libgenlock \
     liboverlay \
     libtinyxml
