@@ -64,9 +64,9 @@ PRODUCT_COPY_FILES += \
 
 # ANT
 #PRODUCT_PACKAGES += \
-    AntHalService \
-    com.dsi.ant.antradio_library \
-    libantradio
+#    AntHalService \
+#    com.dsi.ant.antradio_library \
+#    libantradio
 
 # Audio
 PRODUCT_PACKAGES += \
@@ -117,8 +117,7 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     camera.msm8953 \
-    libmm-qcamera \
-    Snap
+    libmm-qcamera
 
 PRODUCT_PACKAGES += \
     camera.device@1.0-impl \
@@ -149,7 +148,6 @@ PRODUCT_PACKAGES += \
     memtrack.msm8953 \
     liboverlay \
     libgenlock \
-    libjni_livedisplay \
     libtinyxml
 
 PRODUCT_PACKAGES += \
