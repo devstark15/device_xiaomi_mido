@@ -383,5 +383,5 @@ PRODUCT_BOOT_JARS += \
     telephony-ext
 
 # Doze
-PRODUCT_PACKAGES += \
-    XiaomiDoze
+#PRODUCT_PACKAGES += \
+#    XiaomiDoze
