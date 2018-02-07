@@ -132,22 +132,6 @@ on boot
     #Remove SUID bit for iproute2 ip tool
     chmod 0755 /system/bin/ip
 
-    # LED torch permissions
-    chmod 0666 /sys/class/leds/led:torch_0/brightness
-    chmod 0666 /sys/class/leds/led:torch_1/brightness
-    chmod 0666 /sys/class/leds/led:switch/brightness
-
-    # Graphic node permissions
-    chown system graphics /sys/class/graphics/fb0/idle_time
-    chown system graphics /sys/class/graphics/fb0/dyn_pu
-    chown system graphics /sys/class/graphics/fb0/modes
-    chown system graphics /sys/class/graphics/fb0/mode
-    chown system graphics /sys/class/graphics/fb0/msm_cmd_autorefresh_en
-    chmod 0664 /sys/class/graphics/fb0/idle_time
-    chmod 0664 /sys/class/graphics/fb0/dyn_pu
-    chmod 0664 /sys/class/graphics/fb0/modes
-    chmod 0664 /sys/class/graphics/fb0/mode
-    chmod 0664 /sys/class/graphics/fb0/msm_cmd_autorefresh_en
 
     chmod 0444 /sys/devices/platform/msm_hsusb/gadget/usb_state
 
